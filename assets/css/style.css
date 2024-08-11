@@ -237,7 +237,7 @@ nav{
     margin: auto 0;
     width: 380px;
     height: 380px;
-    border-radius: 55% 45% 55% 45%;
+    border-radius: 55% 55% 55% 55%;
     overflow: hidden;
     animation: imgFloat 7s ease-in-out infinite;
 }
@@ -246,12 +246,12 @@ nav{
     height: 380px;
     object-fit: cover;
 }
-@keyframes imgFloat {
+/*@keyframes imgFloat {
     50%{
         transform: translateY(10px);
-        border-radius: 45% 55% 45% 55%;
+        border-radius: 55% 55% 55% 55%;
     }
-}
+}*/
 .scroll-btn{
    position: absolute;
    bottom: 0;
