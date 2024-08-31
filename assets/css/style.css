@@ -259,14 +259,7 @@ nav{
         transform: translateY(10px);
         border-radius: 55% 55% 55% 55%;
     }
-html,body{
-    height:100%;
-    width:100%;
-    margin:0px;
-    padding:0px;
-    overflow-x:hidden;
-    
-}
+
 }*/
 .scroll-btn{
    position: absolute;
@@ -555,14 +548,7 @@ footer{
         width: 320px;
         height: 320px;
     }
-    html,body{
-    height:100%;
-    width:100%;
-    margin:0px;
-    padding:0px;
-    overflow-x:hidden;
     
-}
 }
 
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
@@ -573,14 +559,7 @@ footer{
     .nav-menu.responsive{
         left: 0;
     }
-    html,body{
-    height:100%;
-    width:100%;
-    margin:0px;
-    padding:0px;
-    overflow-x:hidden;
-    
-}
+   
     .nav-menu{
         position: fixed;
         top: 80px;
@@ -658,14 +637,7 @@ footer{
     .featured-name{
         font-size: 40px;
     }
-    html,body{
-    height:100%;
-    width:100%;
-    margin:0px;
-    padding:0px;
-    overflow-x:hidden;
-    
-}
+   
     .project-box{
         width: 100%;
     }
