@@ -237,7 +237,7 @@ nav{
     margin: auto 0;
     width: 380px;
     height: 380px;
-    border-radius: 55% 55% 55% 55%;
+    border-radius: 55% 45% 55% 45%;
     overflow: hidden;
     animation: imgFloat 7s ease-in-out infinite;
 }
@@ -246,13 +246,12 @@ nav{
     height: 380px;
     object-fit: cover;
 }
-/*@keyframes imgFloat {
+@keyframes imgFloat {
     50%{
         transform: translateY(10px);
         border-radius: 55% 55% 55% 55%;
     }
-
-}*/
+}
 .scroll-btn{
    position: absolute;
    bottom: 0;
@@ -337,6 +336,9 @@ h3{
 }
 .about-btn button:hover{
     background: var(--first-color-hover);
+}
+.nav-btn btn{
+
 }
 
 /* ----- ABOUT / SKILLS BOX ----- */
@@ -442,12 +444,13 @@ h3{
 .contact-info::after{
     background: var(--color-white);
 }
+/*
 .contact-info:hover.contact-info h2,
 .contact-info:hover.contact-info p,
 .contact-info:hover.contact-info i{
     color: #777;
     z-index: 2;
-}
+}*/
 
 /* ----- CONTACT FORM ----- */
 .form-control{
@@ -540,7 +543,6 @@ footer{
         width: 320px;
         height: 320px;
     }
-    
 }
 
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
@@ -551,7 +553,6 @@ footer{
     .nav-menu.responsive{
         left: 0;
     }
-   
     .nav-menu{
         position: fixed;
         top: 80px;
@@ -629,7 +630,6 @@ footer{
     .featured-name{
         font-size: 40px;
     }
-   
     .project-box{
         width: 100%;
     }
@@ -640,3 +640,4 @@ footer{
         width: 100%;
     }
 }
+
